@@ -1,5 +1,5 @@
 :root {
-    background-color: #ecf5ff;
+    background-color: #ddc9b4;
     font-size: 62.5%;
 }
 
@@ -8,7 +8,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #2A3D45;
 }
 
 h1,
@@ -20,7 +20,7 @@ h4 {
 
 h1 {
     font-size: 5.4rem;
-    color: #56a5eb;
+    color: #2A3D45;
     margin-bottom: 5rem;
 }  
 h1 > span {
@@ -82,16 +82,17 @@ width: 100vw;
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #56a5eb;
+    border: 0.1rem solid #2A3D45;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #56a5eb;
-    background-color: white;
+    color: #2A3D45;
+    background-color: #BCAC9B;
+    border-radius: 0.4rem;
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(122, 108, 93, 0.5);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
@@ -101,3 +102,27 @@ width: 100vw;
     box-shadow: none;
     transform: none;
 }
+
+/* FORMS */
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+input {
+    margin-bottom: 2rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: 0.1rem solid #2A3D45;
+    border-radius: 0.4rem;
+    background-color: #DDC9B4;
+}
+
+input::placeholder {
+    color: #7A6C5D;
+}
+
